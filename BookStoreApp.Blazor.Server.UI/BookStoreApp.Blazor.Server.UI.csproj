@@ -8,12 +8,14 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="Static\" />
     <Folder Include="Providers\" />
-    <Folder Include="Services\Base\" />
     <Folder Include="Services\Authentication\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="Blazored.LocalStorage" Version="4.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.12" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.1" />
