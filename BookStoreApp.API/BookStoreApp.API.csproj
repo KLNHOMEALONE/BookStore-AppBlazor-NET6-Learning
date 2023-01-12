@@ -31,6 +31,7 @@
     <Folder Include="Models\Authors\" />
     <Folder Include="Configurations\" />
     <Folder Include="Models\User\" />
+    <Folder Include="Repositories\" />
     <Folder Include="Static\" />
   </ItemGroup>
 
