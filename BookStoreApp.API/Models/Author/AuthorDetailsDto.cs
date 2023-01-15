@@ -1,6 +1,7 @@
-﻿using BookStoreApp.API.Models.Book;
+﻿using BookStoreApp.API.Models.Author;
+using BookStoreApp.API.Models.Book;
 
-namespace BookStoreApp.API.Models.Authors
+namespace BookStoreApp.API.Models.Author
 {
     public class AuthorDetailsDto : AuthorReadOnlyDto
     {

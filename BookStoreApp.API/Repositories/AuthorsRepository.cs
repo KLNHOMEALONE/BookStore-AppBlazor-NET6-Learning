@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using BookStoreApp.API.Data;
-using BookStoreApp.API.Models.Authors;
+using BookStoreApp.API.Models.Author;
 using BookStoreApp.API.Models.Book;
 using Microsoft.EntityFrameworkCore;
 

@@ -28,11 +28,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Authors\" />
+    <Folder Include="logs\" />
+    <Folder Include="Models\Author\" />
     <Folder Include="Configurations\" />
     <Folder Include="Models\User\" />
     <Folder Include="Repositories\" />
     <Folder Include="Static\" />
+    <Folder Include="wwwroot\bookcoverimages\" />
   </ItemGroup>
 
 </Project>

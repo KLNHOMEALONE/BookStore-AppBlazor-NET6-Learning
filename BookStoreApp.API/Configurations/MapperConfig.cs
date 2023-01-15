@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using BookStoreApp.API.Data;
-using BookStoreApp.API.Models.Authors;
+using BookStoreApp.API.Models.Author;
 using BookStoreApp.API.Models.Book;
 using BookStoreApp.API.Models.User;
 
