@@ -11,8 +11,8 @@ using BookStoreApp.API.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connString = builder.Configuration.GetConnectionString("BookStoreAppDbConnection");
-builder.Services.AddDbContext<BookStoreContext>(options => options.UseSqlServer(connString));
+var connString = builder.Configuration.GetConnectionString("PostgresAppDbConnection");
+builder.Services.AddDbContext<BookStoreContext>(options => options.UseNpgsql(connString));
 
 builder.Services.AddIdentityCore<ApiUser>()
     .AddRoles<IdentityRole>()

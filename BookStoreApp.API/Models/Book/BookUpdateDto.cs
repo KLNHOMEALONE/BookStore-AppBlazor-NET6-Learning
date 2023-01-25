@@ -28,6 +28,6 @@ namespace BookStoreApp.API.Models.Book
 
         [Required]
         [Range(0, int.MaxValue)]
-        public double Price { get; set; }
+        public decimal Price { get; set; }
     }
 }
